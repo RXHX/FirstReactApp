@@ -5,7 +5,7 @@ render()
 
     return(
         <div>
-            Hello
+            {alert("The Page you are requesting does not exit")}
         </div>
     )
 }

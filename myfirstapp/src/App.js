@@ -3,7 +3,8 @@ import './App.css';
 import {BrowserRouter} from "react-router-dom";
 import NavBar from './Component/NavBar/NavBar';
 import Container from "./Component/Container/Container";
-
+import Registration from './Form/Registration/Registration';
+import Login from "./Form/Login/Login";
 class App extends Component {
   render() {
     return (
@@ -13,6 +14,8 @@ class App extends Component {
           </p>
         <p className = "App-Intro"></p>
         <BrowserRouter>
+        <Registration/>
+        <Login/>
         <NavBar/>
         <Container/>
         </BrowserRouter>
