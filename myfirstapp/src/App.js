@@ -5,16 +5,17 @@ import NavBar from './Component/NavBar/NavBar';
 import Container from "./Component/Container/Container";
 import Registration from './Form/Registration/Registration';
 import Login from "./Form/Login/Login";
+import Head from "../src/Head/Start";
+import Third from "../src/Head/Third";
+
 class App extends Component {
   render() {
     return (
     <div>
-          <p className = "App-header">
-            File Management System
-          </p>
-        <p className = "App-Intro"></p>
+      <Head/>
+      <Third/>
         <BrowserRouter>
-        <Registration/>
+       <Registration/>
         <Login/>
         <NavBar/>
         <Container/>
